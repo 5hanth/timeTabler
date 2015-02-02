@@ -281,10 +281,4 @@
   (setq cc (total-collisions-in p))
   (dbg "Collisions Count" cc))
 
-(defun unit-test (fn input expected-value)
-  (format t
-	  (if (equal (funcall fn input) expected-value) 
-	      "Test Passed"
-	      "Test Failed")))
-
 (test)
